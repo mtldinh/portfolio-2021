@@ -38,6 +38,14 @@ a {
   font-size: 1.25rem;
 }
 
+.about-page {
+  height: auto;
+  position: relative;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .flex-grid {
   display: flex;
 }
@@ -82,7 +90,8 @@ a {
 }
 
 .pfp {
-  margin: 50px;
+  float: left;
+  margin: 0 75px;
   width: 35%;
   border-radius: 20%;
 }
