@@ -46,13 +46,22 @@ a {
   line-height: 2;
 }
 
+.col {
+  flex: 3;
+}
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
 .flex-grid {
   display: flex;
 }
 
-.col {
-  flex: 3;
-}
 
 .center-text1 {
   text-align: center;
