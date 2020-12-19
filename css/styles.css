@@ -1,0 +1,97 @@
+body {
+  background-color: #FFF9F0;
+  margin: 70px 150px 100px 175px;
+}
+
+
+h2 {
+  color: #005B4C;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.85rem;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+
+}
+
+h3 {
+  color: #00917D;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Taviraj', serif;
+  font-size: 1.25rem;
+  color: #332F28;
+}
+
+a {
+  color: #4E4637;
+  font-family: 'Taviraj', serif;
+  font-size: 1.5rem;
+}
+
+.flex-grid {
+  display: flex;
+}
+
+.col {
+  flex: 3;
+}
+
+.center-text1 {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+
+  .page {
+    display: block;
+  }
+}
+
+.intro {
+  font-weight: 500;
+  font-size: 2.5rem;
+  width: 80%;
+  padding: 60px 0px 70px 0px;
+}
+
+.logo {
+  width: 20%;
+  margin-right: 60%;
+}
+
+.more_ece {
+  position: relative;
+  text-align: center;
+}
+
+.page {
+  float: right;
+}
+
+ul#navbar li{
+    float: left;
+}
+
+ul#navbar li a {
+    color: #4E4637;
+    font-family: 'Taviraj', serif;
+    font-size: 1.5rem;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
