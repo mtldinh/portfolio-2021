@@ -33,6 +33,11 @@ a {
   font-size: 1.5rem;
 }
 
+.about {
+  font-family: 'Taviraj', serif;
+  font-size: 1.25rem;
+}
+
 .flex-grid {
   display: flex;
 }
@@ -59,7 +64,7 @@ a {
   font-weight: 500;
   font-size: 2.5rem;
   width: 80%;
-  padding: 60px 0px 70px 0px;
+  margin: 60px 0 70px 0;
 }
 
 .logo {
@@ -74,6 +79,12 @@ a {
 
 .page {
   float: right;
+}
+
+.pfp {
+  margin: 50px;
+  width: 35%;
+  border-radius: 20%;
 }
 
 ul#navbar li{
