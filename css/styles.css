@@ -101,8 +101,8 @@ a:hover {
   margin-right: 60%;
 }
 
-.more_ece {
-  position: relative;
+#more_ece {
+  display: block;
   text-align: center;
 }
 
