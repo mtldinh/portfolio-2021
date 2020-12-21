@@ -74,6 +74,7 @@ a:hover {
   font-weight: 800;
   color: #332F28;
   margin-left: 3%;
+  margin-top: 3%;
 }
 
 @media (max-width: 400px) {
@@ -93,7 +94,7 @@ a:hover {
   font-weight: 500;
   font-size: 2.75rem;
   width: 75%;
-  margin: 60px 0 70px 0;
+  margin: 60px 0 70px 3%;
 }
 
 .link {
