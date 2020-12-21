@@ -52,6 +52,8 @@ a:hover {
 
 .col {
   flex: 3;
+  margin: 0 2%;
+  text-align: center;
 }
 
 .container {
