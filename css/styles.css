@@ -1,24 +1,19 @@
 body {
   background-color: #FFF9F0;
-  margin: 70px 150px 100px 175px;
+  margin: 70px 150px 50px 175px;
 }
 
 
-h2 {
-  color: #005B4C;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.85rem;
-  font-weight: 800;
-  position: relative;
-  text-align: center;
-
+/*h2 {
 }
+*/
 
 h3 {
-  color: #00917D;
+    color: #00917D;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  margin-top: 0;
 }
 
 p {
@@ -71,6 +66,14 @@ a:hover {
 
 .center-text1 {
   text-align: center;
+}
+
+.contact {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: #332F28;
+  margin-left: 3%;
 }
 
 @media (max-width: 400px) {
@@ -137,4 +140,13 @@ ul#navbar li a {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.title-2 {
+  color: #005B4C;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.85rem;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
 }
