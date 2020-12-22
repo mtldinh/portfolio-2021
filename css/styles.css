@@ -63,7 +63,9 @@ a:hover {
 
 
 .center-text1 {
+  overflow: hidden;
   text-align: center;
+  white-space: nowrap;
 }
 
 .contact {
@@ -171,9 +173,11 @@ ul#navbar li a {
   text-align: right;
   width: 100%;
 }
+
 .nav-bar img {
   float: left;
 }
+
 .nav-bar ul {
   padding: 0;
   margin: 0;
@@ -185,7 +189,6 @@ ul#navbar li a {
 .nav-bar li {
   list-style-type: none;
   padding: 0;
-  height: 24px;
   margin-top: 4px;
   margin-bottom: 4px;
   display: inline;
