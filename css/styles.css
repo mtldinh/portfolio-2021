@@ -2,7 +2,7 @@ body {
   background-color: #FFF9F0;
   max-width: 1080px;
 	margin: 0 auto !important;
-	float: none !important; 
+	float: none !important;
 }
 
 h3 {
@@ -31,7 +31,7 @@ a:hover {
 
 .about {
   font-family: 'Taviraj', serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 .about-page {
