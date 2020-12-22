@@ -69,12 +69,25 @@ a:hover {
 }
 
 .contact {
+  float: left;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.5rem;
-  font-weight: 600  ;
-  color: #332F28;
+  font-weight: 600;
+  color: #4E4637;
   margin-left: 3%;
   margin-top: 3%;
+  display: inline-block;
+}
+
+.email {
+  float: right;
+  display: inline-block;
+  font-weight: 800;
+  margin: 3%;
+}
+
+.email:hover {
+  color: #BCA987;
 }
 
 @media (max-width: 400px) {
@@ -90,10 +103,14 @@ a:hover {
   }
 }
 
+hr {
+  color: #332F28;
+}
+
 .intro {
   font-weight: 500;
   font-size: 2.75rem;
-  width: 75%;
+  width: 85%;
   margin: 70px 0 70px 3%;
 }
 
@@ -128,28 +145,6 @@ a:hover {
 }
 
 
-/*
-ul#navbar li{
-    float: left;
-}
-
-ul#navbar li a {
-    color: #4E4637;
-    font-family: 'Taviraj', serif;
-    font-size: 1.5rem;
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-*/
-
 .title-2 {
   color: #005B4C;
   font-family: 'Work Sans', sans-serif;
@@ -178,12 +173,16 @@ ul#navbar li a {
   float: left;
 }
 
+.nav-bar-link:hover {
+  color: #BCA987;
+}
+
 .nav-bar ul {
   padding: 0;
   margin: 0;
   text-align: center;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 .nav-bar li {
@@ -201,4 +200,24 @@ ul#navbar li a {
   text-decoration: none;
   line-height: 70px;
   padding: 5px 15px;
+}
+
+svg {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.svg-icons li {
+  list-style-type: none;
+  padding: 0;
+  display: inline;
+}
+
+.svg-icons {
+  display: inline-block;
+  float: right;
+  margin-top: 15px;
+  text-align: center;
+  vertical-align: top;
+
 }
