@@ -1,15 +1,12 @@
 body {
   background-color: #FFF9F0;
-  margin: 70px 150px 50px 175px;
+  max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important; 
 }
-
-
-/*h2 {
-}
-*/
 
 h3 {
-    color: #00917D;
+  color: #00917D;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
@@ -34,7 +31,7 @@ a:hover {
 
 .about {
   font-family: 'Taviraj', serif;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 .about-page {
@@ -43,6 +40,7 @@ a:hover {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+  max-width: 1000px;
 }
 
 .col {
@@ -118,7 +116,7 @@ a:hover {
 
 .pfp {
   float: left;
-  margin: 0 75px;
+  margin: 0 3% 3% 3%;
   width: 35%;
   border-radius: 20%;
 }
