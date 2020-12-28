@@ -13,6 +13,7 @@ h3 {
   margin-top: 0;
 }
 
+
 p {
   font-family: 'Taviraj', serif;
   font-size: 1.25rem;
@@ -37,10 +38,17 @@ a:hover {
 .about-page {
   height: auto;
   position: relative;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 60px auto;
   text-align: left;
   line-height: 2;
   max-width: 1000px;
+}
+
+.asian-subtitles {
+  color: #4E4637;
+  font-family: 'Taviraj', serif;
+  font-size: 1.75rem;
+  font-weight: 800;
 }
 
 .col {
@@ -59,6 +67,7 @@ a:hover {
 
 .flex-grid {
   display: flex;
+  max-width: 1000px;
 }
 
 
