@@ -44,6 +44,10 @@ a:hover {
   max-width: 1000px;
 }
 
+.asian-pics {
+  float: left;
+}
+
 .asian-subtitles {
   color: #4E4637;
   font-family: 'Taviraj', serif;
