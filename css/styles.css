@@ -4,47 +4,97 @@ body {
   background: #FFF9F0;
 }
 
+/* Links */
+a {
+  text-decoration: none;
+}
+
 /* Overall Navbar */
 .navbar {
   background: #FFF9F0;
 }
 
 /* Navbar Name */
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand{
   color: #096152;
+  font-family: "TW-Cen-MT-Bold";
 }
 
 /* Navbar Links (about, contact, etc) */
 .navbar-light .navbar-nav .nav-link {
   color: #00918C;
+  font-family: "TW-Cen-MT-Bold";
 }
 
 .nav-item {
   text-align: right;
+  font-size: x-large;
 }
+
+/* Index Description */
+.index-description {
+  font-family: "TW-Cen-MT-Regular";
+  text-align: left;
+  font-size: xx-large;
+}
+
+/* Project Container */
+.container, .projects-container {
+  padding: 1%;
+}
+
+/* Project Headers */
+h3 {
+  font-family: "TW-Cen-MT-Bold";
+  color: #096152;
+  text-align: center;
+  margin: 2.5%;
+}
+
+/* Project Links */
+.project .project-link {
+  font-family: "TW-Cen-MT-Bold-Italic";
+  color: #00918C;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin: 1.5%;
+}
+
+/* Horizontal Divider */
+hr {
+  height: 3px;
+  width: 33%;
+  align-self: center;
+}
+
+
+
 
 /* Fonts */
 @font-face {
   font-family: 'TW-Cen-MT-Regular';
-  src: url('fonts/TW-Cen-MT-Regular.tff')
+  src: url('TW-Cen-MT-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'TW-Cen-MT-Bold';
-  src: url('fonts/TW-Cen-MT-Bold.tff')
+  src: url('TW-Cen-MT-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'TW-Cen-MT-Bold-Italic';
-  src: url('fonts/TW-Cen-MT-Bold-Italic.tff')
+  src: url('TW-Cen-MT-Bold-Italic.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'TW-Cen-MT';
-  src: url('fonts/TW-Cen-MT-Regular.tff')
+  src: url('TW-Cen-MT-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'TW-Cen-MT-Italic';
-  src: url('fonts/TW-Cen-MT-Regular.tff')
+  src: url('TW-Cen-MT-Italic.ttf') format('truetype');
 }
