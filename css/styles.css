@@ -18,13 +18,15 @@ a {
 /* Navbar Name */
 .navbar-light .navbar-brand{
   color: #096152;
-  font-family: "TW-Cen-MT-Bold";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
 }
 
 /* Navbar Links (about, contact, etc) */
 .navbar-light .navbar-nav .nav-link {
   color: #00918C;
-  font-family: "TW-Cen-MT-Bold";
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
   font-size: x-large;
 }
 
@@ -34,7 +36,7 @@ a {
 
 /* Index Description */
 .index-description {
-  font-family: "TW-Cen-MT-Regular";
+  font-family: "Open Sans", sans-serif;
   text-align: left;
   font-size: x-large;
 }
@@ -46,7 +48,8 @@ a {
 
 /* Project Headers */
 h3 {
-  font-family: "TW-Cen-MT-Bold";
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
   color: #096152;
   text-align: center;
   margin: 2.5%;
@@ -54,18 +57,17 @@ h3 {
 
 /* Project Links */
 .project .project-link {
-  font-family: "TW-Cen-MT-Bold-Italic";
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
   color: #00918C;
 }
 
 h4 {
   text-align: center;
-  margin: 1.5%;
+  margin: 2.25%;
 }
 
-a.project-link {
-
-}
 /* Horizontal Divider */
 hr {
   width: 25%;
@@ -74,29 +76,4 @@ hr {
 }
 
 
-
 /* Fonts */
-@font-face {
-  font-family: 'TW-Cen-MT-Regular';
-  src: url('TW-Cen-MT-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TW-Cen-MT-Bold';
-  src: url('TW-Cen-MT-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TW-Cen-MT-Bold-Italic';
-  src: url('TW-Cen-MT-Bold-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TW-Cen-MT';
-  src: url('TW-Cen-MT-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TW-Cen-MT-Italic';
-  src: url('TW-Cen-MT-Italic.ttf') format('truetype');
-}
