@@ -1,236 +1,50 @@
 body {
-  background-color: #FFF9F0;
-  max-width: 1000px;
-	margin: 0 auto !important;
-	float: none !important;
-}
-
-h3 {
-  color: #00917D;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-top: 0;
-}
-
-
-p {
-  font-family: 'Taviraj', serif;
-  font-size: 1.25rem;
-  color: #332F28;
-}
-
-a {
-  color: #2F4858;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #748E89;
-}
-
-.about {
-  font-family: 'Taviraj', serif;
-  font-size: 1.25rem;
-}
-
-.about-page {
-  height: auto;
-  position: relative;
-  margin: 100px auto 60px auto;
-  text-align: left;
-  line-height: 2;
-  max-width: 1000px;
-}
-
-.asian-pics {
-  float: left;
-}
-
-.asian-subtitles {
-  color: #4E4637;
-  font-family: 'Taviraj', serif;
-  font-size: 1.75rem;
-  font-weight: 800;
-}
-
-.col {
-  flex: 3;
-  margin: 0 2%;
-  text-align: center;
-}
-
-.container {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
-}
-.container::-webkit-scrollbar {
-    display: none;  /* Safari and Chrome */
-}
-
-.flex-grid {
-  display: flex;
-  max-width: 1000px;
-}
-
-
-.center-text1 {
-  overflow: hidden;
-  text-align: center;
-  white-space: nowrap;
-}
-
-.contact {
-  float: left;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #4E4637;
-  margin-left: 3%;
-  margin-top: 3%;
-  display: inline-block;
-}
-
-.email {
-  float: right;
-  display: inline-block;
-  font-weight: 800;
-  margin: 3%;
-}
-
-.email:hover {
-  color: #BCA987;
-}
-
-@media (max-width: 400px) {
-  .flex-grid {
-    display: block;
-  }
-
-  .page {
-    color: #4E4637;
-    font-family: 'Taviraj', serif;
-    font-size: 1.5rem;
-    display: block;
-  }
-}
-
-hr {
-  color: #332F28;
-}
-
-.intro {
-  font-weight: 500;
-  font-size: 2.5rem;
-  width: 75%;
-  margin: 100px 0 100px 3%;
-}
-
-.link {
-  color: #4E4637;
-  font-family: 'Taviraj', serif;
-}
-
-.logo {
-  float: left;
-  width: 10%;
-}
-
-#menu {
-  float: right;
-}
-
-#more_ece {
-  display: block;
-  text-align: center;
-}
-
-.page {
-  float: right;
-}
-
-.pfp {
-  float: left;
-  margin: 0 3% 3% 3%;
-  width: 35%;
-  border-radius: 20%;
-}
-
-
-.title-2 {
-  color: #005B4C;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 1.85rem;
-  font-weight: 800;
-  position: relative;
-  text-align: center;
-}
-
-/* ~~ Top Navigation Bar ~~ */
-
-#nav-container {
-  width: 1200px;
-  margin: 0 auto;
-  height: 70px;
-}
-
-.nav-bar {
-  height: 70px;
-  margin: 50px 0;
-  text-align: right;
-  width: 100%;
-}
-
-.nav-bar img {
-  float: left;
-}
-
-.nav-bar-link:hover {
-  color: #BCA987;
-}
-
-.nav-bar ul {
-  padding: 0;
+  padding: 20px;
   margin: 0;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
+  background: #FFF9F0;
 }
 
-.nav-bar li {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  display: inline;
+/* Overall Navbar */
+.navbar {
+  background: #FFF9F0;
 }
 
-.nav-bar li a {
-  color: #4E4637;
-  font-family: 'Taviraj', serif;
-  font-size: 1.5rem;
-  text-decoration: none;
-  line-height: 70px;
-  padding: 5px 15px;
+/* Navbar Name */
+.navbar-light .navbar-brand {
+  color: #096152;
 }
 
-svg {
-  margin-left: 10px;
-  margin-right: 10px;
+/* Navbar Links (about, contact, etc) */
+.navbar-light .navbar-nav .nav-link {
+  color: #00918C;
 }
 
-.svg-icons li {
-  list-style-type: none;
-  padding: 0;
-  display: inline;
+.nav-item {
+  text-align: right;
 }
 
-.svg-icons {
-  display: inline-block;
-  float: right;
-  margin-top: 15px;
-  text-align: center;
-  vertical-align: top;
+/* Fonts */
+@font-face {
+  font-family: 'TW-Cen-MT-Regular';
+  src: url('fonts/TW-Cen-MT-Regular.tff')
+}
 
+@font-face {
+  font-family: 'TW-Cen-MT-Bold';
+  src: url('fonts/TW-Cen-MT-Bold.tff')
+}
+
+@font-face {
+  font-family: 'TW-Cen-MT-Bold-Italic';
+  src: url('fonts/TW-Cen-MT-Bold-Italic.tff')
+}
+
+@font-face {
+  font-family: 'TW-Cen-MT';
+  src: url('fonts/TW-Cen-MT-Regular.tff')
+}
+
+@font-face {
+  font-family: 'TW-Cen-MT-Italic';
+  src: url('fonts/TW-Cen-MT-Regular.tff')
 }
