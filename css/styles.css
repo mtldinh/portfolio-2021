@@ -1,5 +1,5 @@
 body {
-  padding: 20px;
+  padding: 3% 25%;
   margin: 0;
   background: #FFF9F0;
 }
@@ -65,11 +65,10 @@ h4 {
 
 /* Horizontal Divider */
 hr {
-  height: 3px;
-  width: 33%;
-  align-self: center;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 
 
