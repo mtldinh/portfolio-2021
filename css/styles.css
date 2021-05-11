@@ -38,7 +38,7 @@ a {
 .index-description {
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  font-size: x-large;
+  font-size: 1.5rem;
 }
 
 /* Project Container */
@@ -122,7 +122,9 @@ hr {
   margin-bottom: 10px;
 }
 
+/*
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+*/
