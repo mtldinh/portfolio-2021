@@ -1,6 +1,5 @@
 body {
-  padding: 3% 20%;
-  margin: 0;
+  margin: 1% 15%;
   background: #FFF9F0;
 }
 
@@ -106,10 +105,10 @@ hr {
 }
 
 /* Selfie */
-#selfie {
+.selfie {
   float: right;
-  margin: 2rem;
-  margin-top: 1rem;
+  display: block;
+  padding: 1.5rem;
 }
 
 /* GSP Class Photo */
