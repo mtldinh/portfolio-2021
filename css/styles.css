@@ -62,10 +62,6 @@ h3 {
   font-size: 1.2rem;
 }
 
-a.project-link {
-  color: blue;
-}
-
 /* Project Tiles */
 
 h4 {
@@ -114,4 +110,19 @@ hr {
   float: right;
   margin: 2rem;
   margin-top: 1rem;
+}
+
+/* GSP Class Photo */
+.gsp-class {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
