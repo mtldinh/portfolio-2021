@@ -52,24 +52,19 @@ h3 {
   font-weight: bold;
   color: #096152;
   text-align: center;
-  margin: 2.5%;
+  margin: 2%;
 }
 
-/* Project Links (defunct)
-.project .project-link {
+/* Project Links  */
+ .project-link {
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
-  font-style: italic;
   color: #00918C;
-  word-wrap: break-word;
-  width: 100px;
+  font-size: 1.2rem;
 }
 
 a.project-link {
-  color: #3b719f;
+  color: blue;
 }
-
-*/
 
 /* Project Tiles */
 
@@ -90,6 +85,16 @@ h4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.brightness {
+    background-color: #FFF9F0;
+    display: inline-block;
+
+}
+.brightness img:hover {
+    opacity: .7;
+}
+
 /* Horizontal Divider */
 hr {
   width: 25%;
