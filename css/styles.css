@@ -114,11 +114,13 @@ hr {
 /* GSP Class Photo */
 .gsp-class {
   display: block;
+  float:right;
+  /*
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  */
+  width: 40rem;
+  margin: 1rem;
 }
 
 /*
