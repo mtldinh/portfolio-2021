@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>NCSU APIDA Collective</title>
+  <title>Contact</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
   <!-- Required meta tags -->
@@ -58,16 +58,54 @@
 
   </div>
 
-<h3>NCSU APIDA Collective</h3>
-<div class="container about-container">
+  <h3>Questions, comments, or concerns? Contact me here.</h3>
 
-<p>APIDA stands for “Asian American, Pacific Islander, and Desi American.”
-</p>
+  <form id="contact-form" method="post"  action="https://formspree.io/f/mrgrypkl" role="form">
 
-<p>The APIDA Collective at NC State intends to cultivate a community for APIDA-identifying students at NC State.
-  The collective will be working with NC State’s Multicultural Student Affairs to host APIDA-related events and workshops.
-  I will be working as a coordinator, alongside several other individuals that are equally passionate about the college APIDA community!
-</p>
+    <div class="messages"></div>
 
-<p>More to come soon!</p>
-</div>
+    <div class="controls">
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_name">Name *</label>
+            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name" required="required" data-error="Firstname is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="form_email">Email *</label>
+            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="form_message">Message *</label>
+            <textarea id="form_message" name="message" class="form-control" placeholder="Message here" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <input type="submit" class="btn btn-success btn-send" value="Send message">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <br>
+          <p class="text-muted">
+            <strong>*</strong> These fields are required. Template by
+            <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+        </div>
+      </div>
+    </div>
+
+  </form>
