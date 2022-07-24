@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #777;
+  color: #439bc6;
   text-decoration: none;
 }
 
@@ -33,7 +33,7 @@ h6,
 }
 
 .section {
-  padding: 7rem 0;
+  padding: 4rem 0;
 }
 
 .filters a {
@@ -246,7 +246,7 @@ h6,
 
 .form-control {
   border-radius: 0;
-  background: #f8f9fa;
+  background: #eff1f4;
   border: 1px solid transparent;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -254,7 +254,7 @@ h6,
 
 .form-control:active,
 .form-control:focus {
-  background: #eff1f4;
+  background: #E0E4EA;
   outline: none;
   box-shadow: none;
   border: 1px solid transparent;
@@ -279,6 +279,8 @@ h6,
 }
 
 /* Contact Form */
+
+
 .php-email-form .error-message {
   display: none;
   color: #fff;
